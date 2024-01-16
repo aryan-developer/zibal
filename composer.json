@@ -1,0 +1,20 @@
+{
+    "name": "aryan-developer/zibal",
+    "description": "a simple library for zibal",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aryan",
+            "email": "rynshirvani@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+        "Aryandev\\zibal\\" : "src"
+    }
+},
+    "require": {
+        "ext-curl": "*",
+        "php" : ">=8.2"
+    }
+}
